@@ -13,12 +13,14 @@
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "style-loader": "^0.20.1",
+    "svg-inline-loader": "^0.8.0",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-flexbox-grid": "^2.0.0"
   }
 }

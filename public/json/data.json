@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "firstName": "Jacob",
+    "lastName": "Lee",
+    "title": "Software Developer",
+    "description": ""
+  },
+
+  "education": [
+    {
+      "title": "University of British Columbia",
+      "description": "Bachelor of Computer Science",
+      "date": "Sep 2013 - Dec 2016",
+      "image": "/images/ubc.svg"
+    },
+    {
+      "title": "University of British Columbia",
+      "description": "Bachelor of Science, Honours Physiology",
+      "date": "Sep 2009 - May 2013",
+      "image": "/images/ubc.svg"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Hootsuite",
+      "description": "Software Developer",
+      "date": "Feb 2017 - Present",
+      "image": "/images/hootsuite.svg"
+    },
+    {
+      "title": "Apple",
+      "description": "Software Engineer, Co-op",
+      "date": "May 2016 - Aug 2016",
+      "image": "/images/apple.svg"
+    },
+    {
+      "title": "Hootsuite",
+      "description": "Software Engineer, Co-op",
+      "date": "Sep 2014 - Aug 2015",
+      "image": "/images/hootsuite.svg"
+    }
+  ],
+
+  "projects": [
+
+  ],
+
+  "skills": [
+    {
+      "key": "languages",
+      "values": [
+        "Scala",
+        "JavaScript",
+        "Python",
+        "Java",
+        "PHP",
+        "Go",
+        "Objective-C",
+        "C",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "key": "front-end",
+      "values": [
+        "React",
+        "Backbone.js"
+      ]
+    },
+    {
+      "key": "back-end",
+      "values": [
+        "Play",
+        "Django",
+        "Node/Express"
+      ]
+    }
+  ],
+
+  "socialProfiles": [
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "url": "https://github.com/jacobtwlee"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "url": "https://linkedin.com/in/leejacob"
+    },
+    {
+      "name": "Twitter",
+      "icon": "fab fa-twitter",
+      "url": "https://twitter.com/jacobtwlee"
+    }
+  ]
+}

@@ -32,6 +32,15 @@ module.exports = {
                 }, {
                     loader: "less-loader"
                 }]
+            },
+            {
+                test: /\.css$/,
+                loader: 'style-loader!css-loader?modules',
+                include: /flexboxgrid/
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader'
             }
         ],
     },

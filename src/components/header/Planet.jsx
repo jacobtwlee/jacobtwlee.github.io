@@ -12,7 +12,7 @@ class Planet extends React.Component {
             }}>
                 <div className='-orbit-ring' />
                 <div className='-planet-orbit' style={{
-                     "animation-duration": this.props.orbitDuration,
+                     animationDuration: this.props.orbitDuration,
                  }}>
                     <div className='-planet' style={{
                         backgroundColor: this.props.color,
@@ -31,9 +31,9 @@ class Planet extends React.Component {
 
 Planet.propTypes = {
     color: PropTypes.string,
-    orbitDiameter: PropTypes.number.required,
-    orbitDuration: PropTypes.string.required,
-    planetDiameter: PropTypes.number.required,
+    orbitDiameter: PropTypes.number.isRequired,
+    orbitDuration: PropTypes.string.isRequired,
+    planetDiameter: PropTypes.number.isRequired,
 };
 
 Planet.defaultProps = {

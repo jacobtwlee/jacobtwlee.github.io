@@ -6,6 +6,7 @@ import Planet from './Planet'
 import Centre from './Centre'
 
 import './Header.less'
+import model from "../../model/model";
 
 class Header extends React.Component {
     constructor(props) {
@@ -55,7 +56,13 @@ class Header extends React.Component {
                     transform: `translate3d(0, ${logoOffset}px, 0)`,
                     color: `hsl(0, 0%, ${logoLuminance}%)`
                 }}>
-                    <Centre><NameLogo firstName='Jacob' lastName='Lee' title='Software Developer' /></Centre>
+                    <Centre>
+                        <NameLogo
+                            firstName={this.props.profile.firstName}
+                            lastName={this.props.profile.lastName}
+                            title={this.props.profile.title}
+                        />
+                    </Centre>
                 </div>
                 <Centre><Sun color={sunColor}/></Centre>
                 <Centre><Planet color={planet1Color} orbitDiameter={400} orbitDuration='10s' planetDiameter={14} /></Centre>
@@ -66,5 +73,9 @@ class Header extends React.Component {
         )
     }
 }
+
+Header.propTypes = {
+    profile: model.profile.isRequired
+};
 
 export default Header

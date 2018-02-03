@@ -20,9 +20,9 @@ class NameLogo extends React.Component {
 }
 
 NameLogo.propTypes = {
-    firstName: PropTypes.string.required,
-    lastName: PropTypes.string.required,
-    title: PropTypes.string.required,
+    firstName: PropTypes.string.isRequired,
+    lastName: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
 };
 
 export default NameLogo
