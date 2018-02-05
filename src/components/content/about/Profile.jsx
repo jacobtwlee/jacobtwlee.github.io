@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import model from '../../../model/model';
 
 import Avatar from './Avatar';
-import Icon from './Icon';
+import Icon from '../../Icon';
 
 
 import './Profile.less';

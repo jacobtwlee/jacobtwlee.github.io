@@ -16,5 +16,35 @@
       width: 100vw;
       height: 50vh;
     }
+
+    .-scroll-indicator {
+      position: relative;
+      animation-name: scroll-anim;
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      opacity: 0;
+
+      &.x-1 {
+        top: 250px;
+        animation-delay: 0s;
+      }
+
+      &.x-2 {
+        top: 350px;
+        animation-delay: 0.67s;
+      }
+
+      &.x-3 {
+        top: 450px;
+        animation-delay: 1.33s;
+      }
+
+      @keyframes scroll-anim {
+        0%      {opacity: 0; transform: scale(0.5, 0.5) translateY(-10px)}
+        30%     {opacity: 0.05}
+        60%     {opacity: 0; transform: scale(1, 1) translateY(10px)}
+      }
+    }
   }
 }

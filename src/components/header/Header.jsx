@@ -1,9 +1,10 @@
 import React from 'react';
 
-import NameLogo from './NameLogo'
-import Sun from './Sun'
-import Planet from './Planet'
-import Centre from './Centre'
+import NameLogo from './NameLogo';
+import Sun from './Sun';
+import Planet from './Planet';
+import Centre from './Centre';
+import Icon from '../Icon';
 
 import './Header.less'
 import model from "../../model/model";
@@ -71,6 +72,10 @@ class Header extends React.Component {
                     <Centre><Planet color={planet2Color} orbitDiameter={600} orbitDuration='30s' planetDiameter={18} /></Centre>
                     <Centre><Planet color={planet3Color} orbitDiameter={800} orbitDuration='50s' planetDiameter={20} /></Centre>
                     <Centre><Planet color={planet4Color} orbitDiameter={1000} orbitDuration='80s' planetDiameter={16} /></Centre>
+
+                    <Centre><div className='-scroll-indicator x-1'><Icon name='fas fa-chevron-down' /></div></Centre>
+                    <Centre><div className='-scroll-indicator x-2'><Icon name='fas fa-chevron-down' /></div></Centre>
+                    <Centre><div className='-scroll-indicator x-3'><Icon name='fas fa-chevron-down' /></div></Centre>
                 </div>
             </div>
         )
