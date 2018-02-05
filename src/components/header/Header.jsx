@@ -49,26 +49,29 @@ class Header extends React.Component {
 
         return (
             <div className='rc-Header' style={{
-                transform: `translate3d(0, ${scrollOffset}px, 0)`,
                 backgroundColor: bgColor
             }}>
-                <div className='-logoContainer' style={{
-                    transform: `translate3d(0, ${logoOffset}px, 0)`,
-                    color: `hsl(0, 0%, ${logoLuminance}%)`
+                <div className='-planetarium' style={{
+                    transform: `translate3d(0, ${scrollOffset}px, 0)`
                 }}>
-                    <Centre>
-                        <NameLogo
-                            firstName={this.props.profile.firstName}
-                            lastName={this.props.profile.lastName}
-                            title={this.props.profile.title}
-                        />
-                    </Centre>
+                    <div className='-logo-container' style={{
+                        transform: `translate3d(0, ${logoOffset}px, 0)`,
+                        color: `hsl(0, 0%, ${logoLuminance}%)`
+                    }}>
+                        <Centre>
+                            <NameLogo
+                                firstName={this.props.profile.firstName}
+                                lastName={this.props.profile.lastName}
+                                title={this.props.profile.title}
+                            />
+                        </Centre>
+                    </div>
+                    <Centre><Sun color={sunColor}/></Centre>
+                    <Centre><Planet color={planet1Color} orbitDiameter={400} orbitDuration='10s' planetDiameter={14} /></Centre>
+                    <Centre><Planet color={planet2Color} orbitDiameter={600} orbitDuration='30s' planetDiameter={18} /></Centre>
+                    <Centre><Planet color={planet3Color} orbitDiameter={800} orbitDuration='50s' planetDiameter={20} /></Centre>
+                    <Centre><Planet color={planet4Color} orbitDiameter={1000} orbitDuration='80s' planetDiameter={16} /></Centre>
                 </div>
-                <Centre><Sun color={sunColor}/></Centre>
-                <Centre><Planet color={planet1Color} orbitDiameter={400} orbitDuration='10s' planetDiameter={14} /></Centre>
-                <Centre><Planet color={planet2Color} orbitDiameter={600} orbitDuration='30s' planetDiameter={18} /></Centre>
-                <Centre><Planet color={planet3Color} orbitDiameter={800} orbitDuration='50s' planetDiameter={20} /></Centre>
-                <Centre><Planet color={planet4Color} orbitDiameter={1000} orbitDuration='80s' planetDiameter={16} /></Centre>
             </div>
         )
     }

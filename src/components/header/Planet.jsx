@@ -20,8 +20,8 @@ class Planet extends React.Component {
                         width: this.props.planetDiameter
                     }} />
                     <div className='-planet-shadow' style={{
-                        height: Math.max(window.innerHeight, window.innerWidth) / 2,
-                        width: this.props.planetDiameter * 3
+                        height: Math.max(window.innerHeight, window.innerWidth),
+                        width: this.props.planetDiameter * 5
                     }} />
                 </div>
             </div>
