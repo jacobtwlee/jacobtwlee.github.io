@@ -25,20 +25,20 @@
     {
       "title": "Hootsuite",
       "description": "Software Developer",
-      "date": "Feb 2017 - Present",
-      "image": "/images/hootsuite.svg"
+      "date": "February 2017 — Present",
+      "image": "/public/img/hootsuite.svg"
     },
     {
       "title": "Apple",
-      "description": "Software Engineer, Co-op",
-      "date": "May 2016 - Aug 2016",
-      "image": "/images/apple.svg"
+      "description": "Software Engineer Co-op",
+      "date": "May 2016 — August 2016",
+      "image": "/public/img/apple.svg"
     },
     {
       "title": "Hootsuite",
-      "description": "Software Engineer, Co-op",
-      "date": "Sep 2014 - Aug 2015",
-      "image": "/images/hootsuite.svg"
+      "description": "Software Engineer Co-op",
+      "date": "September 2014 — August 2015",
+      "image": "/public/img/hootsuite.svg"
     }
   ],
 

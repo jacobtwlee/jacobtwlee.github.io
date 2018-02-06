@@ -6,6 +6,7 @@ import Section from './content/Section';
 import About from './content/about'
 
 import model from '../model/model';
+import Experience from "./content/experience";
 
 class App extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
                 <Content>
                     <About data={this.props.data} />
                     <Section title='Experience'>
+                        <Experience data={this.props.data} />
                     </Section>
                     <Section title='Projects'>
                     </Section>
