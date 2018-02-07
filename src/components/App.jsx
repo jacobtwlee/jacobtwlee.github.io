@@ -3,10 +3,11 @@ import React from 'react';
 import Header from './header/Header';
 import Content from './content/Content';
 import Section from './content/Section';
-import About from './content/about'
+import About from './content/about';
+import Experience from "./content/experience";
+import Contact from './content/contact';
 
 import model from '../model/model';
-import Experience from "./content/experience";
 
 class App extends React.Component {
     render() {
@@ -23,6 +24,7 @@ class App extends React.Component {
                     <Section title='Education'>
                     </Section>
                     <Section title='Contact'>
+                        <Contact data={this.props.data} />
                     </Section>
                 </Content>
             </div>

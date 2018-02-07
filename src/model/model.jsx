@@ -4,7 +4,11 @@ const profile = PropTypes.shape({
     firstName: PropTypes.string,
     lastName: PropTypes.string,
     title: PropTypes.string,
-    description: PropTypes.string
+    description: PropTypes.string,
+    email: PropTypes.shape({
+        username: PropTypes.string,
+        domain: PropTypes.string
+    })
 });
 
 const experience = PropTypes.shape({

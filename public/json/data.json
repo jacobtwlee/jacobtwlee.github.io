@@ -3,7 +3,11 @@
     "firstName": "Jacob",
     "lastName": "Lee",
     "title": "Software Developer",
-    "description": ""
+    "description": "",
+    "email": {
+      "username": "jacobtwlee",
+      "domain": "gmail.com"
+    }
   },
 
   "education": [
