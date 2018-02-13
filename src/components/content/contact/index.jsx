@@ -7,7 +7,6 @@ import model from '../../../model/model';
 
 class Contact extends React.Component {
     render() {
-        console.log(this.props);
         const username = this.props.data.profile.email.username;
         const domain = this.props.data.profile.email.domain;
         const email = `${username}@${domain}`;

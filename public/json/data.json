@@ -14,14 +14,64 @@
     {
       "title": "University of British Columbia",
       "description": "Bachelor of Computer Science",
-      "date": "Sep 2013 - Dec 2016",
-      "image": "/images/ubc.svg"
+      "date": "Sep 2013 — Dec 2016",
+      "image": "public/img/ubc.svg",
+      "details": [
+        {
+          "title": "CPSC 415",
+          "description": "Advanced Operating Systems"
+        },
+        {
+          "title": "CPSC 404",
+          "description": "Advanced Relational Databases"
+        },
+        {
+          "title": "CPEN 400A",
+          "description": "Building Modern Web Applications"
+        },
+        {
+          "title": "CPSC 322",
+          "description": "Introduction to Artificial Intelligence"
+        },
+        {
+          "title": "CPSC 320",
+          "description": "Intermediate Algorithm Design and Analysis"
+        },
+        {
+          "title": "CPSC 317",
+          "description": "Internet Computing"
+        },
+        {
+          "title": "CPSC 312",
+          "description": "Functional and Logic Programming"
+        },
+        {
+          "title": "CPSC 311",
+          "description": "Definition of Programming Languages"
+        },
+        {
+          "title": "CPSC 310",
+          "description": "Introduction to Software Engineering"
+        },
+        {
+          "title": "CPSC 301",
+          "description": "Computing in the Life Sciences"
+        },
+        {
+          "title": "MATH 221",
+          "description": "Matrix Algebra"
+        },
+        {
+          "title": "MATH 200",
+          "description": "Multivariable Calculus"
+        }
+      ]
     },
     {
       "title": "University of British Columbia",
       "description": "Bachelor of Science, Honours Physiology",
-      "date": "Sep 2009 - May 2013",
-      "image": "/images/ubc.svg"
+      "date": "Sep 2009 — May 2013",
+      "image": "public/img/ubc.svg"
     }
   ],
 
@@ -29,19 +79,19 @@
     {
       "title": "Hootsuite",
       "description": "Software Developer",
-      "date": "February 2017 — Present",
+      "date": "Feb 2017 — Present",
       "image": "/public/img/hootsuite.svg"
     },
     {
       "title": "Apple",
       "description": "Software Engineer Co-op",
-      "date": "May 2016 — August 2016",
+      "date": "May — Aug 2016",
       "image": "/public/img/apple.svg"
     },
     {
       "title": "Hootsuite",
       "description": "Software Engineer Co-op",
-      "date": "September 2014 — August 2015",
+      "date": "Sep 2014 — Aug 2015",
       "image": "/public/img/hootsuite.svg"
     }
   ],

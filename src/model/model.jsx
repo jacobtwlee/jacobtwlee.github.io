@@ -16,6 +16,10 @@ const experience = PropTypes.shape({
     description: PropTypes.string,
     date: PropTypes.string,
     image: PropTypes.string,
+    details: PropTypes.arrayOf(PropTypes.shape({
+        title: PropTypes.string,
+        description: PropTypes.string
+    }))
 });
 
 const skill = PropTypes.shape({
